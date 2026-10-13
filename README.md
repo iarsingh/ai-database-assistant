@@ -1,5 +1,12 @@
 # AI Database Assistant
 
+## Overview
+
+A beginner agentic AI lab for a database assistant that only explains. `POST /agent/run` takes a query type and returns a canned EXPLAIN plan for it, and goals that ask for INSERT or DELETE are refused. A `/v1` ops API adds workspaces, tenant isolation, job approval and audit records, and the service ships with Docker files and pytest tests run in GitHub Actions.
+
+- **Built with:** Python, pytest, Docker, GitHub Actions
+- **Scope:** Local laptop lab returning canned plans; it calls no hosted model and does not apply production changes.
+
 <!-- project-guide:start -->
 ## Project guide
 
